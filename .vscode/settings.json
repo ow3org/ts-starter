@@ -1,0 +1,39 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "openweblabs",
+    "openweb",
+    "meema",
+    "meemalabs",
+    "pnpm",
+    "degit",
+    "vitest",
+    "vitejs",
+    "vite",
+    "unplugin",
+    "vueuse",
+    "vue-demi",
+    "prefetch",
+    "destructurable",
+    "pausable",
+    "antfu",
+    "vitebook",
+    "booleanish",
+    "composables",
+    "preinstall",
+    "commitlint",
+    "commitlintrc",
+    "upath",
+    "bumpp",
+    "typecheck",
+    "heroicons",
+    "socio",
+    "esno",
+    "unref"
+  ]
+}
