@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.23.0
+  '@commitlint/config-conventional': ^16.2.4
   '@commitlint/cz-commitlint': ^16.2.4
   '@commitlint/types': ^16.2.1
   '@types/node': ^17.0.32
@@ -25,6 +26,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.23.0_hcfsmds2fshutdssjqluwm76uu
+  '@commitlint/config-conventional': 16.2.4
   '@commitlint/cz-commitlint': 16.2.4_nlwf7yf5555jiq2ch63nbqq5xy
   '@commitlint/types': 16.2.1
   '@types/node': 17.0.33
@@ -343,6 +345,13 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
+
+  /@commitlint/config-conventional/16.2.4:
+    resolution: {integrity: sha512-av2UQJa3CuE5P0dzxj/o/B9XVALqYzEViHrMXtDrW9iuflrqCStWBAioijppj9URyz6ONpohJKAtSdgAOE0gkA==}
+    engines: {node: '>=v12'}
+    dependencies:
+      conventional-changelog-conventionalcommits: 4.6.3
+    dev: true
 
   /@commitlint/config-validator/16.2.1:
     resolution: {integrity: sha512-hogSe0WGg7CKmp4IfNbdNES3Rq3UEI4XRPB8JL4EPgo/ORq5nrGTVzxJh78omibNuB8Ho4501Czb1Er1MoDWpw==}
