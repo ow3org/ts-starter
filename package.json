@@ -9,15 +9,15 @@
     "unref",
     "deep"
   ],
-  "homepage": "https://github.com/openweblabs/deep-unref-vue#readme",
+  "homepage": "https://github.com/openweblabs/ts-starter#readme",
   "bugs": {
-    "url": "https://github.com/openweblabs/deep-unref-vue/issues"
+    "url": "https://github.com/openweblabs/ts-starter/issues"
   },
   "license": "MIT",
   "author": "Chris Breuer <chris@ow3.org>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openweblabs/deep-unref-vue.git"
+    "url": "git+https://github.com/openweblabs/ts-starter.git"
   },
   "funding": "https://github.com/sponsors/antfu",
   "main": "./dist/index.mjs",

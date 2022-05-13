@@ -11,11 +11,8 @@ Luckily, it's incredibly easy to get your package development started with this 
 npx degit openweblabs/ts-starter my-pkg
 cd my-pkg
 
-# ensure you also now update your vite.config.ts with your library name
-
  # if you don't have pnpm installed, run `npm i -g pnpm`
 pnpm i # install all deps
-pnpm dev # starts the local server at http://localhost:3333 & watches for changes
 pnpm build # builds the library for production-ready use
 ```
 
