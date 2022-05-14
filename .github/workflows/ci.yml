@@ -75,5 +75,5 @@ jobs:
 
       - run: pnpm install
 
-      - name: Unit Test
-        run: pnpm run test:unit
+      - name: Run Test Suite
+        run: pnpm run test
