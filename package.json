@@ -57,9 +57,9 @@
     "vue": "^3.2.33"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.23.0",
+    "@antfu/eslint-config": "^0.23.1",
     "@commitlint/config-conventional": "^16.2.4",
-    "@commitlint/cz-commitlint": "^16.2.4",
+    "@commitlint/cz-commitlint": "^16.3.0",
     "@commitlint/types": "^16.2.1",
     "@types/node": "^17.0.32",
     "bumpp": "^7.1.1",
@@ -75,7 +75,7 @@
     "typescript": "^4.6.4",
     "unbuild": "^0.7.4",
     "vite": "^2.9.9",
-    "vitest": "^0.12.4"
+    "vitest": "^0.12.6"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix",
