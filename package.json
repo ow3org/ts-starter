@@ -58,9 +58,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.1",
-    "@commitlint/config-conventional": "^16.2.4",
-    "@commitlint/cz-commitlint": "^16.3.0",
-    "@commitlint/types": "^16.2.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/cz-commitlint": "^17.0.0",
+    "@commitlint/types": "^17.0.0",
     "@types/node": "^17.0.32",
     "bumpp": "^7.1.1",
     "commitizen": "^4.2.4",
