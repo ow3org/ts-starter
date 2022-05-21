@@ -1,7 +1,7 @@
 {
   "name": "my-pkg",
   "version": "0.1.0",
-  "packageManager": "pnpm@7.1.1",
+  "packageManager": "pnpm@7.1.2",
   "description": "",
   "keywords": [
     "vue",
@@ -54,7 +54,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "vue": "^3.2.33"
+    "vue": "^3.2.35"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.1",
@@ -69,13 +69,13 @@
     "esno": "^0.16.3",
     "inquirer": "^8.2.4",
     "lint-staged": "^12.4.1",
-    "pnpm": "^7.1.1",
+    "pnpm": "^7.1.2",
     "simple-git-hooks": "^2.7.0",
     "sort-package-json": "^1.57.0",
     "typescript": "^4.6.4",
     "unbuild": "^0.7.4",
     "vite": "^2.9.9",
-    "vitest": "^0.12.6"
+    "vitest": "^0.12.7"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix",
@@ -92,6 +92,6 @@
   },
   "engines": {
     "node": ">=v16.15.0",
-    "pnpm": ">=7.1.1"
+    "pnpm": ">=7.1.2"
   }
 }
