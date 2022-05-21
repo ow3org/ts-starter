@@ -4,10 +4,10 @@
   "packageManager": "pnpm@7.1.2",
   "description": "",
   "keywords": [
-    "vue",
-    "composable",
-    "unref",
-    "deep"
+    "typescript",
+    "starter",
+    "kit",
+    "package"
   ],
   "homepage": "https://github.com/openweblabs/ts-starter#readme",
   "bugs": {
