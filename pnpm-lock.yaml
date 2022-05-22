@@ -13,13 +13,13 @@ specifiers:
   esno: ^0.16.3
   inquirer: ^8.2.4
   lint-staged: ^12.4.1
-  pnpm: ^7.1.2
+  pnpm: ^7.1.3
   simple-git-hooks: ^2.7.0
   sort-package-json: ^1.57.0
   typescript: ^4.6.4
   unbuild: ^0.7.4
   vite: ^2.9.9
-  vitest: ^0.12.7
+  vitest: ^0.12.9
   vue: ^3.2.35
 
 dependencies:
@@ -38,13 +38,13 @@ devDependencies:
   esno: 0.16.3
   inquirer: 8.2.4
   lint-staged: 12.4.1
-  pnpm: 7.1.2
+  pnpm: 7.1.3
   simple-git-hooks: 2.7.0
   sort-package-json: 1.57.0
   typescript: 4.6.4
   unbuild: 0.7.4
   vite: 2.9.9
-  vitest: 0.12.7
+  vitest: 0.12.9
 
 packages:
 
@@ -4492,8 +4492,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.1.2:
-    resolution: {integrity: sha512-nZieltHsIEvr5vGcDM4JchBixUk1Esq+XewDP9RCiPAPxRv5LzDhGujgsrtoETyXBsQ9mclXSPppNr80ya4Rnw==}
+  /pnpm/7.1.3:
+    resolution: {integrity: sha512-dQEYAJ7FT7I23mGfRnkT0GGVIoM4IUj4Mu+/gughv0s/zY8HlJUP5X4GeT67rncOSr021z6MNBj2oOoNL/LoAw==}
     engines: {node: '>=14.19'}
     hasBin: true
     dev: true
@@ -5438,8 +5438,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.12.7:
-    resolution: {integrity: sha512-rQsb9i/zEw+HtiTNr+5p+tOUMu0Ojp0jtZc/6FfE4T1xL2bhMq74tfUgu7hav3rFF9eGKpJeZBVlEszjdCuYQg==}
+  /vitest/0.12.9:
+    resolution: {integrity: sha512-1NtyUANS72Qw5PwYvoztk067NX4fSiis2xQxhByOWS33eL2er/yupHyLxlBCOkF2ANe0dLFRvT1GVb+nczL5aw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
