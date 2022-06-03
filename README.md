@@ -62,7 +62,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/openweblabs/ts-starter/discussions)
+[Discussions on GitHub](https://github.com/openwebstacks/ts-starter/discussions)
 
 For casual chit-chat with others using this package:
 
@@ -72,4 +72,4 @@ For casual chit-chat with others using this package:
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Open Web Labs.
+Made with ❤️
