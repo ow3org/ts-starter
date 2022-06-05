@@ -1,7 +1,7 @@
 {
   "name": "my-pkg",
   "version": "0.1.2",
-  "packageManager": "pnpm@7.1.7",
+  "packageManager": "pnpm@7.1.8",
   "description": "",
   "keywords": [
     "typescript",
@@ -65,11 +65,11 @@
     "bumpp": "^7.1.1",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.2.2",
-    "eslint": "^8.16.0",
+    "eslint": "^8.17.0",
     "esno": "^0.16.3",
     "inquirer": "^8.2.4",
     "lint-staged": "^13.0.0",
-    "pnpm": "^7.1.7",
+    "pnpm": "^7.1.8",
     "simple-git-hooks": "^2.8.0",
     "sort-package-json": "^1.57.0",
     "typescript": "^4.7.3",
@@ -92,6 +92,6 @@
   },
   "engines": {
     "node": ">=v16.15.1",
-    "pnpm": ">=7.1.7"
+    "pnpm": ">=7.1.8"
   }
 }
