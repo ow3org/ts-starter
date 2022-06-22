@@ -3,32 +3,33 @@
   "version": "0.1.2",
   "packageManager": "pnpm@7.3.0",
   "description": "",
+  "author": "Chris Breuer <chris@ow3.org>",
+  "license": "MIT",
+  "homepage": "https://github.com/openwebstacks/ts-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openwebstacks/ts-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openwebstacks/ts-starter/issues"
+  },
   "keywords": [
     "typescript",
     "starter",
     "kit",
     "package"
   ],
-  "homepage": "https://github.com/openwebstacks/ts-starter#readme",
-  "bugs": {
-    "url": "https://github.com/openwebstacks/ts-starter/issues"
-  },
-  "license": "MIT",
-  "author": "Chris Breuer <chris@ow3.org>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/openwebstacks/ts-starter.git"
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
@@ -40,7 +41,10 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
+  "engines": {
+    "node": ">=v16.15.1",
+    "pnpm": ">=7.3.0"
+  },
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
@@ -72,20 +76,16 @@
     "vite": "^2.9.12",
     "vitest": "^0.15.2"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
-  },
   "simple-git-hooks": {
     "pre-commit": "npx --no-install lint-staged",
     "commit-msg": "npx --no -- commitlint --edit $1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git"
     }
-  },
-  "engines": {
-    "node": ">=v16.15.1",
-    "pnpm": ">=7.3.0"
   }
 }
