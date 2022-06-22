@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/openwebstacks/ts-starter/compare/v0.2.1...v0.2.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* **ci:** adjust publish command ([513ac6c](https://github.com/openwebstacks/ts-starter/commit/513ac6cf061183f04db56d1160f6fad746acffa6))
+
+
+
 ## [0.2.1](https://github.com/openwebstacks/ts-starter/compare/v0.2.0...v0.2.1) (2022-06-22)
 
 
