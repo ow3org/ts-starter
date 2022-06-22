@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/openwebstacks/ts-starter/compare/v0.2.2...v0.2.3) (2022-06-22)
+
+
+### Bug Fixes
+
+* **ci:** properly run test suite ([7159b8e](https://github.com/openwebstacks/ts-starter/commit/7159b8ebd06fe7975980dfc7b3c038b6a3ca827e))
+
+
+
 ## [0.2.2](https://github.com/openwebstacks/ts-starter/compare/v0.2.1...v0.2.2) (2022-06-22)
 
 
