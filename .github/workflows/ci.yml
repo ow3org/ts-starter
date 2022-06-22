@@ -97,7 +97,7 @@ jobs:
         run: pnpm install
 
       - name: Unit Test
-        run: pnpm run test:unit
+        run: pnpm run test
 
   js-cs-fixer:
     if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
