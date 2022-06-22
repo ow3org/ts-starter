@@ -5,13 +5,13 @@
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 <!-- [![Codecov][codecov-src]][codecov-href] -->
 
-# The Quick Way to Get Started
+# The Simple Way
 
 This is an opinionated TypeScript Starter kit to help kick-start development of your next npm package.
 
 ## 💡 Get Started
 
-Luckily, it's incredibly easy to get your package development started with this slightly opinionated starter kit.
+Luckily, it's incredibly easy to get your package development started:
 
 ```bash
 # you may use this GitHub template or the following command:
