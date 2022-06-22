@@ -1,6 +1,6 @@
 {
   "name": "my-pkg",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "packageManager": "pnpm@7.3.0",
   "description": "",
   "author": "Chris Breuer <chris@ow3.org>",
@@ -54,7 +54,7 @@
     "commit": "git cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepublishOnly": "pnpm run build",
-    "release": "npx bumpp package.json --execute 'pnpm run changelog' --commit 'chore(release): %s' --all",
+    "release": "npx bumpp package.json --execute 'pnpm run changelog' --all",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
