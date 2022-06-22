@@ -1,5 +1,6 @@
 <p align="center"><img src=".github/art/cover_ts_starter.png" alt="Social Card of TypeScript Starter"></p>
 
+[![npm version][npm-version-src]][npm-version-href]
 [![GitHub Actions][github-actions-src]][github-actions-href]
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
@@ -34,7 +35,7 @@ pnpm run release # automates git commits, versioning, and changelog generations
 
 This Starter Kit comes pre-configured with the following:
 
-- [Powerful Build Engine](https://github.com/openwebstacks/stacks-framework/tree/main/.stacks/builds) - via [unbuild](https://github.com/unjs/unbuild)
+- [Powerful Build Engine](https://github.com/unjs/unbuild) - via unbuild
 - [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 4.7
 - [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
 - [Built With Testing In Mind](https://github.com/vitest-dev/vitest) - pre-configured unit-testing powered by [Vitest](https://github.com/vitest-dev/vitest) & e2e-testing by [Cypress](https://cypress.io/)
@@ -72,11 +73,14 @@ The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 Made with ❤️
 
 <!-- Badges -->
-[npm-downloads-src]: https://img.shields.io/npm/dm/@ow3/hello-world-vue?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@ow3/hello-world-vue
+[npm-version-src]: https://img.shields.io/npm/v/@ow3/dummy-ts-pkg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@ow3/dummy-ts-pkg
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/openwebstacks/stacks-framework/CI/main?style=flat-square
-[github-actions-href]: https://github.com/openwebstacks/stacks-framework/actions?query=workflow%3Aci
+[npm-downloads-src]: https://img.shields.io/npm/dm/@ow3/dummy-ts-pkg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@ow3/dummy-ts-pkg
 
-<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/openwebstacks/stacks-framework/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/openwebstacks/stacks-framework -->
+[github-actions-src]: https://img.shields.io/github/workflow/status/openwebstacks/ts-starter/CI/main?style=flat-square
+[github-actions-href]: https://github.com/openwebstacks/ts-starter/actions?query=workflow%3Aci
+
+<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/openwebstacks/ts-starter/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/openwebstacks/ts-starter -->
