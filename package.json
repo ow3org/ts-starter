@@ -1,5 +1,5 @@
 {
-  "name": "my-pkg",
+  "name": "@ow3/dummy-ts-pkg",
   "version": "0.2.0",
   "packageManager": "pnpm@7.3.0",
   "description": "",
